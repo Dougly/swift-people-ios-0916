@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01AB40C41885369DB796E89E /* Pods_swift_peopleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515194AADCA86F28C7467BA3 /* Pods_swift_peopleTests.framework */; };
+		112CE1C11D9BFF1700E50C8A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CE1C01D9BFF1700E50C8A /* Person.swift */; };
 		4DEE92601BFBDA3700132675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE925F1BFBDA3700132675 /* AppDelegate.swift */; };
 		4DEE92621BFBDA3700132675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92611BFBDA3700132675 /* ViewController.swift */; };
 		4DEE92651BFBDA3700132675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEE92631BFBDA3700132675 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112CE1C01D9BFF1700E50C8A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		4DEE925C1BFBDA3700132675 /* swift-people.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-people.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEE925F1BFBDA3700132675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DEE92611BFBDA3700132675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				4DEE925F1BFBDA3700132675 /* AppDelegate.swift */,
 				4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */,
 				4DEE927F1BFCCC5000132675 /* Resources */,
+				112CE1C01D9BFF1700E50C8A /* Person.swift */,
 			);
 			path = "swift-people";
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			files = (
 				4DEE92621BFBDA3700132675 /* ViewController.swift in Sources */,
 				4DEE92601BFBDA3700132675 /* AppDelegate.swift in Sources */,
+				112CE1C11D9BFF1700E50C8A /* Person.swift in Sources */,
 				4DEE92831BFCD27D00132675 /* Int+Ordinal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
