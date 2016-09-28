@@ -1,12 +1,10 @@
-//
-//  Person.swift
-//  swift-people
-//
-//  Created by Douglas Galante on 9/28/16.
-//  Copyright © 2016 Flatiron School. All rights reserved.
-//
+//: Playground - noun: a place where people can play
 
-import Foundation
+import UIKit
+
+var myDouble = Double()
+
+print (myDouble)
 
 class Person {
     var name: String
@@ -31,21 +29,17 @@ class Person {
     
     func celebrateBirthday () -> String {
         var birthdayMessage = ""
-        var ordinalForAge = ""
-        
-        //increments age
-        if let age = self.ageInYears {
-            self.ageInYears = age + 1
-        }
-        
-        //put together birthday message with or without age
+        let ordinalForAge = "th"
         if self.ageInYears == nil {
             birthdayMessage = "HAPPY BIRTHDAY, \(self.name.uppercased())!!!"
         } else {
             if let age = self.ageInYears {
-                ordinalForAge = age.ordinal()
-                birthdayMessage = "HAPPY \(age)\(ordinalForAge.uppercased()) BIRTHDAY, \(self.name.uppercased())!!!"
+                birthdayMessage = "HAPPY \(age)\(ordinalForAge) BIRTHDAY, \(self.name.uppercased())"
             }
+        }
+        if var age = self.ageInYears {
+            age += 1
+            self.ageInYears = age
         }
         return birthdayMessage
     }
@@ -79,4 +73,21 @@ class Person {
     
     
 }
+
+let newPerson = Person(name: "Mark", ageInYears: 20)
+print(newPerson.ageInYears)
+
+newPerson.celebrateBirthday()
+
+print(newPerson.ageInYears)
+
+
+
+
+
+
+
+
+
+
 
